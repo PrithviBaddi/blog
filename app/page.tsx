@@ -1,6 +1,7 @@
 import { client } from "../lib/contentful";
 import { Playfair_Display, Inter } from "next/font/google";
 import PostCard from "../components/ui/postcard";
+export const dynamic = "force-dynamic";
 
 const playfair = Playfair_Display({ subsets: ["latin"], weight: ["400", "700"] });
 const inter = Inter({ subsets: ["latin"] });

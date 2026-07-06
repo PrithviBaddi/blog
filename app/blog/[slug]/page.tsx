@@ -1,4 +1,5 @@
 import { client } from "../../../lib/contentful";
+export const dynamic = "force-dynamic";
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { BLOCKS, INLINES } from "@contentful/rich-text-types";
 import { Playfair_Display, Inter } from "next/font/google";
