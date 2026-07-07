@@ -145,21 +145,23 @@ const richTextOptions = {
         </figure>
       );
     },
-    [INLINES.HYPERLINK]: (node: any, children: any) => (
-      <a
-        href={node.data.uri}
-        style={{
-          color: "#111",
-          textDecoration: "underline",
-          textDecorationColor: "#CCC",
-          textUnderlineOffset: 3,
-        }}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        {children}
-      </a>
-    ),
+    [INLINES.HYPERLINK]: (node: any, children: any) => {
+      return (
+        <a
+          href={node.data.uri}
+          style={{
+            color: "#111",
+            textDecoration: "underline",
+            textDecorationColor: "#CCC",
+            textUnderlineOffset: 3,
+          }}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {children}
+        </a>
+      );
+    },
   },
 };
 
