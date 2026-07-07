@@ -54,7 +54,7 @@ export default async function Page() {
             letterSpacing: "0.01em",
           }}
         >
-          Thoughts, ideas, and things worth writing about
+          Testinggggggggggggggggggggggggggggggggggg
         </p>
       </header>
 
