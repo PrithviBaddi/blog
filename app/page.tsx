@@ -44,7 +44,7 @@ export default async function Page() {
             margin: 0,
           }}
         >
-          The Blog
+          The Blog (automatic update)
         </h1>
         <p
           style={{
